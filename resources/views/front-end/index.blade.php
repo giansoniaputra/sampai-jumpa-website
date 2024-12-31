@@ -104,7 +104,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.min.css
                 <p class="font-vibes text-center terimakasih" style="padding: 0">
                     Terimakasih
                 </p>
-                <p class="fs-3 text-dark text-center ps-4 pe-4 ucapan_t"
+                <p class="fs-5 text-dark text-center ps-4 pe-4 ucapan_t"
                     style="font-family: 'Abel', sans-serif;padding-top:10vh;opacity:0;">
                     "Hari ini adalah hari yang berat karena kalian akan pergi. Terima kasih atas semua kebersamaan dan
                     kenangan indah yang sudah kalian bagi bersama.
@@ -141,7 +141,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.min.css
                                     style="background-image: url(storage/{{ $row->photo }});">
                                     <div class="text w-100">
                                         <span class="cat">{{ $row->nama }}</span>
-                                        <h3><a href="#">{{ $row->status }}</a></h3>
+                                        <h5><a href="#">{{ $row->status }}</a></h3>
                                     </div>
                                 </div>
                             </div>
